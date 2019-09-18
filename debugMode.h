@@ -3,6 +3,10 @@
 #include <cstdio>
 #include <cstring>
 
+/*
+	#define macro taken from https://www.cs.uic.edu/pub/CS211/ProjectF18/debugmacro.c
+*/
+
 //only extern here, declare debugMode = false in file with main()
 extern bool debugMode;
 
