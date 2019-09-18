@@ -7,7 +7,7 @@ and geared for C++ programs as opposed to C programs.
 # the .h file contains
 
 extern bool debugMode;
-A global variable used in macro if statements.
+A global variable used in macro if statements. You will need to define it in one of your files.
 
 debugPrintf(...)
 Expands to a macro that uses printf(...) and is inside an if statement dependant on debugMode's value.
